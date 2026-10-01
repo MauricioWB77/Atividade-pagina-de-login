@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            background-color: rgb(116, 114, 114);
+            margin: 0;
+        }
+
+        divisaotl{
+            display: flex;
+            width: 1000px;
+            margin: auto 60px;
+            background-color: white;
+            border-radius: 35px;
+            overflow: hidden;
+        }
+
+        esquerdo{
+            width: 50%;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.815);
+            color: rgb(255, 187, 0);
+        }
+
+        esquerdobv{
+            font-size: 40px;
+            margin-top: 80px;
+        }
+
+        informacao{
+            background-color: #131414c9;
+            padding: 15px;
+            margin-top: 80px;
+            border-left: 4px solid rgb(233, 153, 4);
+        }
+
+        direito{
+            width: 50%;
+            padding: 40px;
+        }
+
+        direitotit{
+            color: #1593d9;
+        }
+
+        direitonome{
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        direito input[type="email"],
+        direito input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #7a7979;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        opcoes{
+            margin: 15px;
+            font-size: 14px;
+    }
+
+        opcoes2{
+            float: right;
+            color: #032146;
+            font-weight: bold;
+        }
+
+        .button {
+            width: 100%;
+            padding: 12px;
+            background-color: #02152c;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        conta{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        conta2{
+            color: #1581c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="divisaotl">
+
+        <div class="esquerdo">
+            <h3>Sistemas Web</h3>
+            <h1>Bem-vindo(a)!!</h1>
+            <p>Insira sua conta para acessar o sistema.</p>
+
+        <div class="informacao">
+            <h4>Gestão simples e eficiente</h4>
+            <p>Tenha acesso às suas informações de forma rápida, segura e organizada.</p>
+          </div>    
+        </div>
+
+        <div class="direito">
+            <h2>Entrar na sua conta</h2>
+            <p>Informe seus dados para acessar o sistema.</p>
+
+            <form>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha">
+
+                <div class="opcoes">
+                    <input type="checkbox" id="lembrar">
+                    <label for="lembrar" style="display: inline; font-weight: normal;">Lembrar de mim</label>
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+
+                <button type="submit">Entrar</button>
+            </form>
+
+            <p class="conta"><a href="#">Ainda não possui uma conta?</a></p>
+        </div>
+
+
+
+    </div>
+
+    
+</body>
+</html>
